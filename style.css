@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #1F1365, #1D1465, #1F1A6E, #1F156B, #1F1667);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+nav > a{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+nav > a:hover{
+    background-color: #20A2DC;
+}
+
+main {
+    margin-bottom: 48px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.conteudo h2{
+    font-size: 20px;
+}
+
+.conteudo button{
+    font-size: 17px;
+    background-color: #20A2DC;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+
+footer > a{
+    padding: 32px;
+    color: white;
+    text-align: center;
+    display: block;
+}
