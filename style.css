@@ -30,7 +30,7 @@ nav{
 
 nav > a{
     color: white;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 17px;
     padding: 15px;
     border-radius: 25px;
@@ -41,7 +41,7 @@ nav > a:hover{
 }
 
 main {
-    margin-bottom: 48px;
+    margin-top: 50px; 
 }
 
 section{
@@ -77,9 +77,16 @@ section{
     cursor: pointer;
 }
 
-footer > a{
-    padding: 32px;
-    color: white;
+footer{
+    margin-top: 110px;
     text-align: center;
     display: block;
+}
+
+footer > a{
+    color: white;
+}
+
+footer > a:hover{
+    text-decoration: underline;
 }
